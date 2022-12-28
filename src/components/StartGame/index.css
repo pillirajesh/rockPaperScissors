@@ -1,0 +1,120 @@
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.start-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.result {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play-button {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #223a5f;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.rules-button {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #223a5f;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+}
+
+.popup-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 20vh;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.pop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.close-button {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  height: 30vh;
+}
+
+.rules-image {
+  width: 300px;
+  height: 300px;
+  margin-top: auto;
+}

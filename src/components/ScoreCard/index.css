@@ -1,0 +1,39 @@
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  width: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.score-container {
+  background-color: #ffffff;
+  width: 170px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.score {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #223a5f;
+}
+
+.score1 {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #223a5f;
+}
